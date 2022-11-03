@@ -19433,6 +19433,11 @@ span.video-play-icon:hover {
   color: #fbfbfb;
 }
 
+.home-about-w3l .grids-1 p {
+  height: 84px;
+  overflow: hidden;
+}
+
 .icon-style i {
   color: var(--primary-color);
   font-size: 40px;
