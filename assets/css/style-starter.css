@@ -19217,6 +19217,10 @@ h3.title-style span {
 .banner-left {
   margin-top: -2.5em;
 }
+.sucess {
+  color: green;
+  font-weight: bold;
+}
 
 .banner-left,
 .banner-right {
@@ -20497,7 +20501,7 @@ h4.inner-text-title {
   font-size: 16px;
   border: none;
   padding: 14px;
-  border: 1px solid var(--border-color-light);
+  border: 1px solid #ccc;
   width: 100%;
   background: var(--bg-light);
   height: auto;
