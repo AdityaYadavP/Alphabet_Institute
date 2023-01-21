@@ -19878,6 +19878,9 @@ h4.title-head a {
 /* //testimonials */
 
 /* stats */
+#stats{
+  display: none;
+}
 .w3_stats {
   /*background: url(../images/map.png), var(--gradient-color), no-repeat, center;*/
   background-size: contain;
@@ -20517,12 +20520,13 @@ h4.inner-text-title {
 .map iframe {
   border: none;
   width: 100%;
-  min-height: 600px;
+  min-height: 420px;
   -webkit-filter: var(--iframe-filter);
   -moz-filter: var(--iframe-filter);
   -ms-filter: var(--iframe-filter);
   -o-filter: var(--iframe-filter);
   filter: var(--iframe-filter);
+  margin-top: 48px;
 }
 
 /* support */
